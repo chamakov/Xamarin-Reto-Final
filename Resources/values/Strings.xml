@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Iniciar Sesión</string>
+    <string name="Hello2">Iniciar Sesión Con Facebook</string>
+    <string name="ApplicationName">Brafer</string>
+    <string name="usr">Usuario</string>
+    <string name="psw">Contraseña</string>
+</resources>

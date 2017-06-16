@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ff3d46">
+    <ImageView
+        android:src="@drawable/rojo"
+        android:layout_width="wrap_content"
+        android:layout_height="174dp"
+        android:id="@+id/imageView1" />
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5" />
+    <TextView
+        android:text="Ingresa tu sugerencia y la tomaremos en cuenta:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:paddingLeft="@android:dimen/app_icon_size" />
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSugerencias"
+        android:height="100dp"
+        android:width="10dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7" />
+    <Button
+        android:text="Enviar Sugerencia"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnEnviar"
+        android:background="#ffffff"
+        android:textColor="#ff3d46" />
+</LinearLayout>
